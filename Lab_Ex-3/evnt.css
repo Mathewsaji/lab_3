@@ -1,0 +1,57 @@
+
+.flex-container{
+    top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    row-gap: 30px;
+    column-gap: 25px;
+    border: 2px ;
+}
+.flex-container > div {
+   background-color: aliceblue;
+    margin: 10px;
+    width: 320px;
+    max-height: 460px;
+    opacity: 100%;
+}
+p{
+    top: 20px;
+    width: 160px;
+    max-height: 340px;
+    word-wrap: break-word;
+    padding: 5%;
+    font-family: cursive;
+    color: #060809;
+    background-image: linear-gradient(to top, #cbc9b2 1%, transparent 100%);
+}
+#arjithsingh{
+    background-image: url(./images/Arjithsingh.jpg);
+    background-size:cover;
+    background-position: center;
+}
+#arrahman{
+    background-image: url(./images/ARrahman.jpg);
+    background-size:cover;
+    background-position: center;
+}
+#shreyagoshal{
+    background-image: url(./images/Shreyagoshal.jpg);
+    background-size:cover;
+    background-position: center;
+}
+#anirudh{
+    background-image: url(./images/Anirudh.jpg);
+    background-size:cover;
+    background-position: center;
+}
+#kailashkher{
+    background-image: url(./images/Kailashkher.jpg);
+    background-size:cover;
+    background-position: center;
+}
+#aditisharma{
+    background-image: url(./images/Aditisharma.jpg);
+    background-size:cover;
+    background-position: center;
+}
