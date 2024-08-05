@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        .content {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        #main-content {
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 8px;
+            max-width: 800px; 
+        }
+        .team-member {
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            margin-bottom: 20px;
+        }
+        .team-member h3 {
+            margin: 0;
+            color: #000000;
+        }
+        .team-member p {
+            margin: 5px 0;
+            color: #000000;
+        }
+        footer {
+            background: #444;
+            color: #fff;
+            padding: 10px 0;
+        }
+        .service {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .service:last-child {
+            border-bottom: none;
+        }
+        .service h3 {
+            margin: 0;
+            color: #000000;
+        }
+        .service p {
+            margin: 5px 0;
+            color: #000000;
+        }
+        iframe {
+            width: 100%;
+            height: 80vh;
+            border: 0;
+        }
+    </style>
+    
+    <title>About Us</title>
+</head>
+<body>
+    <div id="#About Us">
+        <div class="container">
+          <div class="overlay"></div>
+          <!-- Navigation Bar for higher screen ratio -->
+          <div class="navbar-max">
+            <a href="home.html"><object type="image/svg+xml" data="images/home_logo.svg" class="logo">Logo</object>Home</a>
+            <a href="Events.html"><object type="image/svg+xml" data="images/event_logo.svg" class="logo">Logo</object>Events</a>
+            <a href="Services.html"><object type="image/svg+xml" data="images/service_logo.svg" class="logo">Logo</object>Services</a>
+            <a href="About Us.html"><object type="image/svg+xml" data="images/contact_logo.svg" class="logo">Logo</object>About Us</a>
+          </div>
+          <!-- Navigation Bar for lower screen ratio -->
+            <div class="navbar-min">
+                <button class="btn btn-primary" data-toggle="collapse" data-target="#nav-bar">☰</button>
+                <div class="collapse" id="nav-bar">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                            <a class="nav-link" href="home.html"><object type="image/svg+xml" data="images/home_logo.svg" class="logo">Logo</object>Home</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="Events.html"><object type="image/svg+xml" data="images/event_logo.svg" class="logo">Logo</object>Events</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="Services.html"><object type="image/svg+xml" data="images/service_logo.svg" class="logo">Logo</object>Services</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="About Us.html"><object type="image/svg+xml" data="images/contact_logo.svg" class="logo">Logo</object>About Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="content">
+                <header>About Us</header>
+                <div id="main-content">
+                    <section>
+                        <h2>Our Passion for Concerts</h2>
+                        <p>Welcome to Flare Bash, where our passion is delivering unforgettable concert experiences. From intimate acoustic performances to grand music festivals, we specialize in managing every aspect of live music events to ensure they are spectacular and seamless.</p>
+                    </section>
+            
+                    <section>
+                        <h2>What We Do</h2>
+                        <div class="service">
+                            <h3>Concert Planning</h3>
+                            <p>Our team meticulously plans every detail of your concert, from artist booking and venue selection to event logistics and on-site management.</p>
+                        </div>
+                        <div class="service">
+                            <h3>Promotion & Marketing</h3>
+                            <p>We handle all aspects of promoting your concert, including social media campaigns, press releases, and ticket sales to ensure a full house and maximum exposure.</p>
+                        </div>
+                        <div class="service">
+                            <h3>On-Site Management</h3>
+                            <p>On the day of the event, our experienced team is on-site to manage everything from stage setup to artist coordination, ensuring a smooth and successful concert.</p>
+                        </div>
+                    </section>
+            
+                    <section>
+                        <h2>Meet the Team</h2>
+                        <div class="team-member">
+                            <div>
+                                <h3>Jane Doe</h3>
+                                <p>Founder & Chief Concert Planner</p>
+                                <p>With over a decade in the music industry, Jane brings creativity and expertise to every event, ensuring that each concert is a memorable experience.</p>
+                            </div>
+                        </div>
+                        <div class="team-member">
+                            <div>
+                                <h3>John Smith</h3>
+                                <p>Event Coordinator</p>
+                                <p>John excels in coordinating all logistical elements of concerts, from artist schedules to equipment setup, making sure every detail is perfect.</p>
+                            </div>
+                        </div>
+                    </section>
+            
+                    <section>
+                        <h2>Contact Us</h2>
+                        <p>For more information about our services or to discuss your upcoming concert, please get in touch with us. Email us at <a href="mailto:flarebash@gmail.com">flarebash@gmail.com</a> or call us at (123) 456-7890. We look forward to making your event extraordinary!</p>
+                    </section>
+                    <section>
+                        <h2><br>Our Location</h2>
+                    </section>
+                    <div class="map-container">
+                        <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=77.60631412267685%2C12.930304729732818%2C77.60813802480699%2C12.93181311636954&amp;layer=mapnik&amp;marker=12.93105761709672%2C77.60722607374191" style="border: 1px solid black"></iframe>
+                        <br/><small><a href="https://www.openstreetmap.org/?mlat=12.93106&amp;mlon=77.60723#map=19/12.93106/77.60723&amp;layers=N">View Larger Map</a></small>
+                    </div>
+                </div>
+                <footer>
+                    <p>&copy; 2024 Flare Bash. All rights reserved.</p>
+                </footer>
+            </div>
+        </div>
+    </div>  
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
